@@ -81,5 +81,29 @@ body {
     color: white;
     display: block;
     transition: 0.3s;}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;}
+      
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;}
+      
+@media screen and (max-height: 450px){      /*when max height is 450px*/
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;}}
+      
+/*background: linear-gradient(141deg,#15d6c9 0%,#38a3d4 25%,#1e72c0 50%,#1a56da 75%);}*/
+      
+.Title {
+    margin-left: 150px;
+    margin-top: 150px;
+    font-size:150%;
+    position: relative;}
       
     
