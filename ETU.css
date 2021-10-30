@@ -33,7 +33,7 @@ section{
     scroll-snap-align:start;
     position: sticky;
     top: 0;
-    box-shadow: -5px -5px 20px rgba(0,0,0,0.4);
+    box-shadow: -5px -5px 20px rgba(255, 255, 255, 0.4);
     margin-bottom: 0;
     padding: 5vmin;}
 section:last-of-type{
