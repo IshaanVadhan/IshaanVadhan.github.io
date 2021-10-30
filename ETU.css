@@ -33,7 +33,7 @@ section{
     scroll-snap-align:start;
     position: sticky;
     top: 0;
-    box-shadow: -5px -5px 20px rgba(0,0,0,0.4);
+    box-shadow: -10px -10px 20px rgba(255, 255, 255, 0.4);
     margin-bottom: 0;
     padding: 5vmin;}
 section:last-of-type{
@@ -153,7 +153,7 @@ position: relative;
 }
 .imgleft{
     height:40vh;
-    margin-left:-360px;
+    margin-left:-500px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius:10px;
 }
