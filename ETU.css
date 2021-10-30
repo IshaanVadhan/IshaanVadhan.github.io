@@ -40,12 +40,12 @@ section:last-of-type{
 .container::-webkit-scrollbar{
         display: none;}
 .one{
-    background-image:url('space1.jpg');
+    background-image:url('images/space1.jpg');
     background-repeat:no-repeat;
     background-size:cover;}
 .two{
     background: linear-gradient(141deg,#000000 0%,#160064 25%,#2600af 40%,#160064 60%,#000000 90%);
-    height:300vh;}
+    height:580vh;}
 
 body {
   font-family: 'Lato', sans-serif;}
