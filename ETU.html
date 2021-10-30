@@ -6,9 +6,45 @@
         <script>
             function openNav(){                                         /*function to open navigation*/
                 document.getElementById("Nav").style.width = "100%";}   
-            
             function closeNav(){                                        /*function to close navigation*/
                 document.getElementById("Nav").style.width = "0%";}
+            
+            function openinfo1(){                                         
+                document.getElementById("info1").style.width = "100%";}   
+            function closeinfo1(){                                        
+                document.getElementById("info1").style.width = "0%";}
+            function openinfo2(){                                         
+                document.getElementById("info2").style.width = "100%";}   
+            function closeinfo2(){                                        
+                document.getElementById("info2").style.width = "0%";}
+            function openinfo3(){                                         
+                document.getElementById("info3").style.width = "100%";}   
+            function closeinfo3(){                                        
+                document.getElementById("info3").style.width = "0%";}
+            function openinfo4(){                                         
+                document.getElementById("info4").style.width = "100%";}   
+            function closeinfo4(){                                        
+                document.getElementById("info4").style.width = "0%";}
+            function openinfo5(){                                         
+                document.getElementById("info5").style.width = "100%";}   
+            function closeinfo5(){                                        
+                document.getElementById("info5").style.width = "0%";}
+            function openinfo6(){                                         
+                document.getElementById("info6").style.width = "100%";}   
+            function closeinfo6(){                                        
+                document.getElementById("info6").style.width = "0%";}
+            function openinfo7(){                                         
+                document.getElementById("info7").style.width = "100%";}   
+            function closeinfo7(){                                        
+                document.getElementById("info7").style.width = "0%";}
+            function openinfo8(){                                         
+                document.getElementById("info8").style.width = "100%";}   
+            function closeinfo8(){                                        
+                document.getElementById("info8").style.width = "0%";}
+            function openinfo9(){                                         
+                document.getElementById("info9").style.width = "100%";}   
+            function closeinfo9(){                                        
+                document.getElementById("info9").style.width = "0%";}
         </script>
     </head>
     <body>
@@ -28,7 +64,7 @@
                         <a href="#">Asteroids & Comets</a>
                         <a href="#">Galaxies</a>
                     </div>
-                  </div>
+                </div>
                 <span style="font-size:30px;cursor:pointer;margin-left:-10px;margin-top:-20px;" onclick="openNav()">&#9776;</span>
                 
                 <div class="cards">
@@ -40,12 +76,24 @@
                                 meaning it contains almost nothing, but it is not completely empty.</p>
                         </div>
                         <div class="picright">
-                            <img class="imgright" src="images/blackhole2.png" alt="">
+                            <div id="info1" class="overlay" style="z-index:2;">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeinfo1()">&times</a>
+                                <div class="overlay-content">
+                                    <p> whatever text whatever text whatever text whatever text</p>
+                                </div>
+                            </div>
+                            <img class="imgright" style="cursor:pointer;" src="images/blackhole2.png" alt="" onclick="openinfo1()">
                         </div>
                     </div>
                     <div class="cardcontainer" style="height:48vh;margin:30vh 0 0 97.5vh;position:relative;">
                         <div class="picleft">
-                            <img class="imgleft" src="images/blackhole2.png" alt="">
+                            <div id="info2" class="overlay" style="z-index:2;">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeinfo2()">&times</a>
+                                <div class="overlay-content">
+                                    <p> whatever text whatever text whatever text whatever text</p>
+                                </div>
+                            </div>
+                            <img class="imgleft" style="cursor:pointer;" src="images/blackhole2.png" alt="" onclick="openinfo2()">
                         </div>
                         <div class="textright">
                             <h1 style="padding:5px;">Radiation invisible to human eyes</h1>
@@ -60,12 +108,24 @@
                                 Because no light can get out, people can't see black holes. They are invisible. Space telescopes with special tools can help find black holes. The special tools can see how stars that are very close to black holes act differently than other stars.</p>
                         </div>
                         <div class="picright">
-                            <img class="imgright" src="images/blackhole2.png" alt="">
+                            <div id="info3" class="overlay" style="z-index:2;">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeinfo3()">&times</a>
+                                <div class="overlay-content">
+                                    <p> whatever text whatever text whatever text whatever text</p>
+                                </div>
+                            </div>
+                            <img class="imgright" style="cursor:pointer;" src="images/blackhole2.png" alt="" onclick="openinfo3()">
                         </div>
                     </div>
                     <div class="cardcontainer" style="height:30vh;margin:17.5vh 0 0 97.5vh;position:relative;">
                         <div class="picleft">
-                            <img class="imgleft" src="images/blackhole2.png" alt="">
+                            <div id="info4" class="overlay" style="z-index:2;">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeinfo4()">&times</a>
+                                <div class="overlay-content">
+                                    <p> whatever text whatever text whatever text whatever text</p>
+                                </div>
+                            </div>
+                            <img class="imgleft" style="cursor:pointer;" src="images/blackhole2.png" alt="" onclick="openinfo4()">
                         </div>
                         <div class="textright">
                             <h1 style="padding:5px;">Stars</h1>
@@ -78,12 +138,24 @@
                             <p style="padding:5px;">Definition of Planets is not as easy as it seems. In simple terms planets can be defined as Large Bodies that revolve around a star.</p>
                         </div>
                         <div class="picright">
-                            <img class="imgright" src="images/blackhole2.png" alt="">
+                            <div id="info5" class="overlay" style="z-index:2;">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeinfo5()">&times</a>
+                                <div class="overlay-content">
+                                    <p> whatever text whatever text whatever text whatever text</p>
+                                </div>
+                            </div>
+                            <img class="imgright" style="cursor:pointer;" src="images/blackhole2.png" alt="" onclick="openinfo5()">
                         </div>
                     </div>
                     <div class="cardcontainer" style="height:30vh;margin:40vh 0 0 97.5vh;position:relative;">
                         <div class="picleft">
-                            <img class="imgleft" src="images/blackhole2.png" alt="">
+                            <div id="info6" class="overlay" style="z-index:2;">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeinfo6()">&times</a>
+                                <div class="overlay-content">
+                                    <p> whatever text whatever text whatever text whatever text</p>
+                                </div>
+                            </div>
+                            <img class="imgleft" style="cursor:pointer;" src="images/blackhole2.png" alt="" onclick="openinfo6()">
                         </div>
                         <div class="textright">
                             <h1 style="padding:5px;">Asteroids and Comets </h1>
@@ -96,12 +168,24 @@
                             <p style="padding:5px;">A galaxy is a huge collection of gas, dust, and billions of stars and their solar systems. A galaxy is held together by gravity.</p>
                         </div>
                         <div class="picright">
-                            <img class="imgright" src="images/blackhole2.png" alt="">
+                            <div id="info7" class="overlay" style="z-index:2;">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeinfo7()">&times</a>
+                                <div class="overlay-content">
+                                    <p> whatever text whatever text whatever text whatever text</p>
+                                </div>
+                            </div>
+                            <img class="imgright" style="cursor:pointer;" src="images/blackhole2.png" alt="" onclick="openinfo7()">
                         </div>
                     </div>
                     <div class="cardcontainer" style="height:30vh;margin:40vh 0 0 97.5vh;position:relative;">
                         <div class="picleft">
-                            <img class="imgleft" src="images/blackhole2.png" alt="">
+                            <div id="info8" class="overlay" style="z-index:2;">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeinfo8()">&times</a>
+                                <div class="overlay-content">
+                                    <p> whatever text whatever text whatever text whatever text</p>
+                                </div>
+                            </div>
+                            <img class="imgleft" style="cursor:pointer;" src="images/blackhole2.png" alt="" onclick="openinfo8()">
                         </div>
                         <div class="textright">
                             <h1 style="padding:5px;">Clusters </h1>
@@ -114,7 +198,13 @@
                             <p style="padding:5px;">Often galaxies have supermassive black holes embedded in the center of their galaxies, which are only visible through the radiation that each black hole emanates as well as through its gravitational interactions with other objects. If the black hole is particularly active, with a lot of material falling into it, it produces immense amounts of radiation. This kind of a galactic object is called a quasar </p>
                         </div>
                         <div class="picright">
-                            <img class="imgright" src="images/blackhole2.png" alt="">
+                            <div id="info9" class="overlay" style="z-index:2;">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeinfo9()">&times</a>
+                                <div class="overlay-content">
+                                    <p> whatever text whatever text whatever text whatever text</p>
+                                </div>
+                            </div>
+                            <img class="imgright" style="cursor:pointer;" src="images/blackhole2.png" alt="" onclick="openinfo9()">
                         </div>
                     </div>
                 </div>
