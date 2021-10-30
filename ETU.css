@@ -11,7 +11,8 @@ body{
     scroll-snap-type:y mandatory;
     overflow-y:scroll;
     height:100vh;
-    margin-top:0vh;}
+    margin-top:0vh;
+    position:sticky}
 .header{
     height:7.5vh;
     padding:10px;
